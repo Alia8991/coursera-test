@@ -79,22 +79,21 @@ div.title {
      }
 
 }
-@media (max-width : 767px) {
+@media (min-width : 767px){
 
-  
      div.one{
 
-      width:95%;
+      width:90%;
      }
 
      div.two{
 
-      width:95%;
+      width:90%;
      }
 
      div.three{
 
-      width:95%;
+      width:90%;
      }
 
 }
