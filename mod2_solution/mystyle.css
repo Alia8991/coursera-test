@@ -16,7 +16,7 @@ div.main {
   position: relative;
   background-color: #909090;
   margin: 0 auto;
-  width: 400px;
+  width: 300px;
   height: 300px;
   border: 3px solid black;
   float: left;
@@ -47,39 +47,59 @@ div.title {
 }
 
 @media (min-width: 992px) {
-  body {
-    width: 100%;
-  }
   
-     div.main{
-     	width:29%;
+     div.one{
+      background-color: blue;
+     	width:30%;
      }
+
+     div.two{
+      background-color: blue;
+      width:30%;
+     }
+
+     div.three{
+      background-color: blue;
+      width:30%;
+     }
+
 
 }
 
 @media screen and (min-device-width : 768px) and  (max-device-width : 991px) {
-    body {
-    	width: 90%;
+  
+     div.one{
 
-    }
+      width:43%;
+     }
 
-     div.main{
-     	width:100%;
+     div.two{
 
-     	align-items: center;
+      width:43%;
+     }
+
+     div.three{
+
+      width:90%;
      }
 
 }
 @media screen and (max-device-width : 767px) {
-    body {
-      width: 90%;
 
-    }
+  
+     div.one{
 
-     div.main{
-      width:100%;
+      width:95%;
+     }
 
-      align-items: center;
+     div.two{
+
+      width:95%;
+     }
+
+     div.three{
+
+      width:95%;
      }
 
 }
