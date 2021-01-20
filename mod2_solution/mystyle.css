@@ -48,7 +48,6 @@ div.title {
 
 @media (min-width: 992px) {
   body {
-  	background-color: lightblue;
     width: 100%;
   }
   
@@ -58,9 +57,8 @@ div.title {
 
 }
 
-@media screen and (min-device-width : 300px) and  (max-device-width : 600px) {
+@media screen and (min-device-width : 768px) and  (max-device-width : 991px) {
     body {
-    	background-color: green;
     	width: 90%;
 
     }
@@ -69,6 +67,19 @@ div.title {
      	width:100%;
 
      	align-items: center;
+     }
+
+}
+@media screen and (max-device-width : 767px) {
+    body {
+      width: 90%;
+
+    }
+
+     div.main{
+      width:100%;
+
+      align-items: center;
      }
 
 }
