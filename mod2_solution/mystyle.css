@@ -43,19 +43,9 @@ div.title {
 
 @media (min-width : 992px) {
   
-     div.one{
+     div.main{
 
      	width:27%;
-     }
-
-     div.two{
-
-      width:27%;
-     }
-
-     div.three{
-
-      width:27%;
      }
 
 
@@ -65,12 +55,12 @@ div.title {
   
      div.one{
 
-      width:43%;
+      width:40%;
      }
 
      div.two{
 
-      width:43%;
+      width:40%;
      }
 
      div.three{
@@ -79,19 +69,10 @@ div.title {
      }
 
 }
-@media (min-width : 767px){
 
-     div.one{
+@media (max-width : 767px){
 
-      width:90%;
-     }
-
-     div.two{
-
-      width:90%;
-     }
-
-     div.three{
+     div.main{
 
       width:90%;
      }
