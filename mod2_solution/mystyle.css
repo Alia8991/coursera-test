@@ -2,10 +2,7 @@ h1{
 			  float: all;
   padding: 10px;
 text-align: center;
-    margin-right: 15px;
-  margin-bottom: 15px; 
-  margin-left: 15px;
-  margin-top: 15px;
+margin:15px;
 		}
 
 
@@ -19,20 +16,18 @@ div.main {
   border: 3px solid black;
   float: left;
   padding: 10px;
-  margin-right: 15px;
-  margin-bottom: 15px; 
-  margin-left: 15px;
-  margin-top: 15px;
+margin:15px;
   font-size: 20px;
 }
 
 div>p{
-  margin: auto;
+  margin-right: auto;
+    margin-left: auto;
+      margin-top: auto;
+        margin-bottom: auto;
   text-align: left;
   padding: 10px;
-  margin-right: 15px;
-  margin-bottom: 15px; 
-  margin-top: 20px;
+margin:15px;
   font-size: 20px;
 }
 
