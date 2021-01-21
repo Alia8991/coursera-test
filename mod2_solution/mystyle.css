@@ -8,10 +8,12 @@ text-align: center;
   margin-top: 15px;
 		}
 
+
 div.main {
+
   position: relative;
+  margin:auto;
   background-color: #909090;
-  margin: 0 auto;
   width: 300px;
   height: 300px;
   border: 3px solid black;
