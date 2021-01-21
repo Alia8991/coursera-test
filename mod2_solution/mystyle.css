@@ -7,18 +7,17 @@ margin:15px;
 
 
 div.main {
-
   position: relative;
-  margin:auto;
   background-color: #909090;
   width: 300px;
   height: 300px;
   border: 3px solid black;
-  float: left;
   padding: 10px;
-margin:15px;
+  margin:15px;
   font-size: 20px;
+  float:left;
 }
+
 
 div>p{
   margin-right: auto;
@@ -44,7 +43,7 @@ div.title {
 @media (min-width : 992px) {
   
      div.main{
-
+      align-items:center;
      	width:27%;
      }
 
