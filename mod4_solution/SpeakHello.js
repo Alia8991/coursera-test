@@ -47,11 +47,15 @@ function speak(name) {
 // xxxx.xxxx = helloSpeaker;
 
 (function(window) {
+
   var helloSpeaker = {};
+
+  var speakWord = "Hello";
+  
   helloSpeaker.speak = function(name) {
     console.log(speakWord + " " + name);
   }
-  var speakWord = "Hello";
+
   window.helloSpeaker = helloSpeaker;
 }(window));
 
